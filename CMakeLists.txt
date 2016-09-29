@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( tester )
+find_package( OpenCV REQUIRED )
+add_executable( tester tester.cpp )
+target_link_libraries( tester ${OpenCV_LIBS} )
