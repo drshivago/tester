@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-long factorial (long a)
+long factorial (long a)             //recersive function
 {
   if (a > 1)
    return (a * factorial (a-1));
